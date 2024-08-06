@@ -22,6 +22,7 @@ function displayMenu(){
         menu.classList.remove('bg-slate-800');
         menu.classList.remove('divide-gray-900');
         menu.classList.remove('divide-y-2');
+       
 
     } else {
         menu.classList.remove('hidden');
@@ -29,12 +30,13 @@ function displayMenu(){
         iconBars.style.display = 'none';
         iconClose.style.display = 'inline';
         menu.classList.add('absolute');
-        menu.classList.add('top-14');
+        menu.classList.add('top-full');
         menu.classList.add('w-full');
         menu.classList.add('left-0');
         menu.classList.add('bg-slate-800');
         menu.classList.add('divide-gray-900');
         menu.classList.add('divide-y-2');
+        
     }
 }
 
